@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test.Cookies"/>
+      <class name="Flipkart_Cookies_Test.SendQueryParam"/>
+      <class name="test.HttpLog"/>
+      <class name="Flipkart_Cookies_Test.HttpLog"/>
+      <class name="test.VerifyEmployeeAPITest"/>
+      <class name="test.APIKeyWeather"/>
+      <class name="Flipkart_Cookies_Test.VerifyEmployeeAPITest"/>
+      <class name="Flipkart_Cookies_Test.Cookies"/>
+      <class name="test.Header"/>
+      <class name="Flipkart_Cookies_Test.Header"/>
+      <class name="test.FlipkartCookies"/>
+      <class name="test.ReadComplexJson"/>
+      <class name="test.SendQueryParam"/>
+      <class name="test.SendFormParam"/>
+      <class name="Flipkart_Cookies_Test.ReadComplexJson"/>
+      <class name="hooks.Hooks"/>
+      <class name="test.Tests"/>
+      <class name="test.OAuth2"/>
+      <class name="Flipkart_Cookies_Test.SendFormParam"/>
+      <class name="test.BasicAuth"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,32 @@
+Request method:	GET
+Request URI:	http://localhost:3000/employees?first_name=Sachin&last_name=Tendulkar
+Proxy:			<none>
+Request params:	<none>
+Query params:	first_name=Sachin
+				last_name=Tendulkar
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: application/json
+Date: Sat, 24 May 2025 05:29:19 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 145
+
+[
+    {
+        "first_name": "Sachin",
+        "last_name": "Tendulkar",
+        "email": "Sachin@api.com",
+        "phone": "98098787879",
+        "id": "55f7"
+    }
+]
